@@ -1,26 +1,18 @@
 package com.mifloreria.modelo;
 
-/**
- * Clase que representa un producto (Flor) dentro del inventario.
- * Contiene los atributos básicos y los métodos para acceder a ellos.
- */
 public class Flor {
     
-    // Atributos del producto en el inventario
+
     private int idFlor;
     private String nombre;
     private double precio;
     private int stockAcumulado;
 
-    /**
-     * Constructor vacío necesario para instanciar el objeto sin datos iniciales.
-     */
+   
     public Flor() {
     }
 
-    /**
-     * Constructor con todos los parámetros para crear un producto completo.
-     */
+    
     public Flor(int idFlor, String nombre, double precio, int stockAcumulado) {
         this.idFlor = idFlor;
         this.nombre = nombre;
@@ -28,7 +20,7 @@ public class Flor {
         this.stockAcumulado = stockAcumulado;
     }
 
-    // --- Métodos Getters y Setters ---
+
 
     public int getIdFlor() {
         return idFlor;
